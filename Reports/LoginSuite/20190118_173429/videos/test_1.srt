@@ -1,0 +1,4 @@
+1
+00:00:00,479 --> 00:00:00,484
+1. sendRequestAndVerify(findTestObject("Helpers/Login/Helper_MCO_Login", ["G_Login_Username":G_Login_Username_MCO, "G_Login_Password":G_Login_Password_MCO, "G_API_URL_LOGIN":G_API_URL_LOGIN]))
+

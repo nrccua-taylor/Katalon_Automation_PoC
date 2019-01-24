@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="loginXchecklist" time="43" tests="10" failures="0" errors="0">
+   <testsuite name="loginXchecklist" tests="10" failures="0" errors="0" time="43" timestamp="2019-01-22 15:08:53" hostname="taylor.sablowsky - LAPTOP1046.nrccua-hq.local" id="Test Suites/loginXchecklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\taylor.sablowsky\\Katalon Studio\\API PoC_BK\\Reports\\loginXchecklist\\20190122_150851"/>
+         <property name="logFiles" value="C:\\Users\\taylor.sablowsky\\Katalon Studio\\API PoC_BK\\Reports\\loginXchecklist\\20190122_150851\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="taylor.sablowsky - LAPTOP1046.nrccua-hq.local"/>
+         <property name="hostAddress" value="192.168.39.235"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.3.1"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC1_MCO_Login" classname="Test Cases/Login/TC1_MCO_Login" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:08:54 - [TEST_CASE][PASSED] - Test Cases/Login/TC1_MCO_Login: Test Cases/Login/TC1_MCO_Login
+
+2019-01-22 15:08:54 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Helpers/Login/Helper_MCO_Login", ["G_Login_Username":G_Login_Username_MCO, "G_Login_Password":G_Login_Password_MCO, "G_API_URL_LOGIN":G_API_URL_LOGIN])): Send request and verify the response successfully
+
+2019-01-22 15:08:59 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:08:59 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:09:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("id"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("student_key"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("created_at"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("updated_at"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("username"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("email"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("school_id"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("email_verified_at"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("is_school_verified"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("bearer_token"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("update_increment"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("facebook_id"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("twitter_id"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("is_profile_public"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("tos_agreed_at"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("gpa"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("admittedly_score"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("is_tutorial_completed"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("tutorial_step"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("preferences"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("personal_color"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("profile"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("profile_completion"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("personal_story"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("subscription_expires_at"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("referred_by_code"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("date_of_birth"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("from_mo"): null
+
+2019-01-22 15:09:00 - [TEST_STEP][PASSED] - getResponseText()).contains("old_password_format"): null
+
+2019-01-22 15:09:00 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:09:00 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC2_MO_LOGIN" classname="Test Cases/Login/TC2_MO_LOGIN" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:09:02 - [TEST_CASE][PASSED] - Test Cases/Login/TC2_MO_LOGIN: Test Cases/Login/TC2_MO_LOGIN
+
+2019-01-22 15:09:02 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Helpers/Login/Helper_MO_Login", ["G_Login_Username":G_Login_Username_MO, "G_Login_Password":G_Login_Password_MO, "G_API_URL_LOGIN":G_API_URL_LOGIN])): Send request and verify the response successfully
+
+2019-01-22 15:09:03 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:09:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("id"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("student_key"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("created_at"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("updated_at"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("username"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("email"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("school_id"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("email_verified_at"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("is_school_verified"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("bearer_token"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("update_increment"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("facebook_id"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("twitter_id"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("is_profile_public"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("tos_agreed_at"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("gpa"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("admittedly_score"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("is_tutorial_completed"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("tutorial_step"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("preferences"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("personal_color"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("profile"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("profile_completion"): null
+
+2019-01-22 15:09:03 - [TEST_STEP][PASSED] - getResponseText()).contains("personal_story"): null
+
+2019-01-22 15:09:04 - [TEST_STEP][PASSED] - getResponseText()).contains("subscription_expires_at"): null
+
+2019-01-22 15:09:04 - [TEST_STEP][PASSED] - getResponseText()).contains("referred_by_code"): null
+
+2019-01-22 15:09:04 - [TEST_STEP][PASSED] - getResponseText()).contains("date_of_birth"): null
+
+2019-01-22 15:09:04 - [TEST_STEP][PASSED] - getResponseText()).contains("from_mo"): null
+
+2019-01-22 15:09:04 - [TEST_STEP][PASSED] - getResponseText()).contains("old_password_format"): null
+
+2019-01-22 15:09:04 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:09:04 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC3_MO_LOGIN_IncorrectPassword" classname="Test Cases/Login/TC3_MO_LOGIN_IncorrectPassword" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:09:06 - [TEST_CASE][PASSED] - Test Cases/Login/TC3_MO_LOGIN_IncorrectPassword: Test Cases/Login/TC3_MO_LOGIN_IncorrectPassword
+
+2019-01-22 15:09:06 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Helpers/Login/Helper_MO_Login_IncorrectPassword", ["G_Login_Username":G_Login_Username_MO, "G_Login_Password":G_Login_Password_MO, "G_API_URL_LOGIN":G_API_URL_LOGIN])): Send request and verify the response successfully
+
+2019-01-22 15:09:07 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:09:07 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:09:07 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:09:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 401): Verify response status code successfully
+
+2019-01-22 15:09:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:09:07 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(401): null
+
+2019-01-22 15:09:07 - [TEST_STEP][PASSED] - getResponseText()).contains("errorMessage"): null
+
+2019-01-22 15:09:07 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:09:07 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC4_MO_LOGIN_IncorrectUsername" classname="Test Cases/Login/TC4_MO_LOGIN_IncorrectUsername" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:09:09 - [TEST_CASE][PASSED] - Test Cases/Login/TC4_MO_LOGIN_IncorrectUsername: Test Cases/Login/TC4_MO_LOGIN_IncorrectUsername
+
+2019-01-22 15:09:09 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Helpers/Login/Helper_MO_Login_IncorrectUsername", ["G_Login_Username":G_Login_Username_MO, "G_Login_Password":G_Login_Password_MO, "G_API_URL_LOGIN":G_API_URL_LOGIN])): Send request and verify the response successfully
+
+2019-01-22 15:09:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:09:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:09:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:09:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 401): Verify response status code successfully
+
+2019-01-22 15:09:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:09:10 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(401): null
+
+2019-01-22 15:09:10 - [TEST_STEP][PASSED] - getResponseText()).contains("errorMessage"): null
+
+2019-01-22 15:09:10 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:09:10 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/TC1_Checklist_GetChecklist" classname="Test Cases/Checklist/TC1_Checklist_GetChecklist" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:09:12 - [TEST_CASE][PASSED] - Test Cases/Checklist/TC1_Checklist_GetChecklist: Test Cases/Checklist/TC1_Checklist_GetChecklist
+
+2019-01-22 15:09:12 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:09:12 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:09:14 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\loginXchecklist\20190122_150851\requests\main\0.har
+
+2019-01-22 15:09:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:09:14 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:09:14 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:09:14 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helpers/Checklist/Get_Checklist"): null
+
+2019-01-22 15:09:14 - [TEST_STEP][PASSED] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): null
+
+2019-01-22 15:09:14 - [TEST_STEP][PASSED] - sendRequestAndVerify(getUserInfoTestObject): Send request and verify the response successfully
+
+2019-01-22 15:09:15 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:09:15 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:09:15 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:09:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:09:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:09:15 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:09:15 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:09:15 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/TC2_Checklist_MarkArchived" classname="Test Cases/Checklist/TC2_Checklist_MarkArchived" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:09:17 - [TEST_CASE][PASSED] - Test Cases/Checklist/TC2_Checklist_MarkArchived: Test Cases/Checklist/TC2_Checklist_MarkArchived
+
+2019-01-22 15:09:17 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:09:17 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:09:18 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\loginXchecklist\20190122_150851\requests\main\1.har
+
+2019-01-22 15:09:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:09:18 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:09:18 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:09:18 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helpers/Checklist/Put_Checklist_MarkArchived"): null
+
+2019-01-22 15:09:18 - [TEST_STEP][PASSED] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): null
+
+2019-01-22 15:09:18 - [TEST_STEP][PASSED] - sendRequestAndVerify(getUserInfoTestObject): Send request and verify the response successfully
+
+2019-01-22 15:09:18 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:09:18 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:09:19 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:09:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:09:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:09:19 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:09:19 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:09:19 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/TC3_Checklist_MarkDone" classname="Test Cases/Checklist/TC3_Checklist_MarkDone" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:09:21 - [TEST_CASE][PASSED] - Test Cases/Checklist/TC3_Checklist_MarkDone: Test Cases/Checklist/TC3_Checklist_MarkDone
+
+2019-01-22 15:09:21 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:09:21 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:09:22 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\loginXchecklist\20190122_150851\requests\main\2.har
+
+2019-01-22 15:09:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:09:22 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:09:22 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:09:22 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helpers/Checklist/Put_Checklist_MarkDone"): null
+
+2019-01-22 15:09:22 - [TEST_STEP][PASSED] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): null
+
+2019-01-22 15:09:22 - [TEST_STEP][PASSED] - sendRequestAndVerify(getUserInfoTestObject): Send request and verify the response successfully
+
+2019-01-22 15:09:22 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:09:22 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:09:22 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:09:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:09:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:09:22 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:09:22 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:09:22 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/TC4_Checklist_MarkToDo" classname="Test Cases/Checklist/TC4_Checklist_MarkToDo" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:09:24 - [TEST_CASE][PASSED] - Test Cases/Checklist/TC4_Checklist_MarkToDo: Test Cases/Checklist/TC4_Checklist_MarkToDo
+
+2019-01-22 15:09:25 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:09:25 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:09:25 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\loginXchecklist\20190122_150851\requests\main\3.har
+
+2019-01-22 15:09:25 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:09:25 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:09:25 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:09:25 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helpers/Checklist/Put_Checklist_MarkToDo"): null
+
+2019-01-22 15:09:25 - [TEST_STEP][PASSED] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): null
+
+2019-01-22 15:09:25 - [TEST_STEP][PASSED] - sendRequestAndVerify(getUserInfoTestObject): Send request and verify the response successfully
+
+2019-01-22 15:09:26 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:09:26 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:09:26 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:09:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:09:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:09:26 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:09:26 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:09:26 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/TC5_Checklist_DeleteNotes" classname="Test Cases/Checklist/TC5_Checklist_DeleteNotes" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:09:28 - [TEST_CASE][PASSED] - Test Cases/Checklist/TC5_Checklist_DeleteNotes: Test Cases/Checklist/TC5_Checklist_DeleteNotes
+
+2019-01-22 15:09:28 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:09:28 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:09:29 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\loginXchecklist\20190122_150851\requests\main\4.har
+
+2019-01-22 15:09:29 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:09:29 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:09:29 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:09:29 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helpers/Checklist/Put_Checklist_DeleteNotes"): null
+
+2019-01-22 15:09:29 - [TEST_STEP][PASSED] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): null
+
+2019-01-22 15:09:29 - [TEST_STEP][PASSED] - sendRequestAndVerify(getUserInfoTestObject): Send request and verify the response successfully
+
+2019-01-22 15:09:30 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:09:30 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:09:30 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:09:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:09:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:09:30 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:09:30 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:09:30 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/TC6_Checklist_AddNotes" classname="Test Cases/Checklist/TC6_Checklist_AddNotes" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:09:32 - [TEST_CASE][PASSED] - Test Cases/Checklist/TC6_Checklist_AddNotes: Test Cases/Checklist/TC6_Checklist_AddNotes
+
+2019-01-22 15:09:32 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:09:32 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:09:34 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\loginXchecklist\20190122_150851\requests\main\5.har
+
+2019-01-22 15:09:34 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:09:34 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:09:34 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:09:34 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helpers/Checklist/Put_Checklist_DeleteNotes"): null
+
+2019-01-22 15:09:34 - [TEST_STEP][PASSED] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): null
+
+2019-01-22 15:09:34 - [TEST_STEP][PASSED] - sendRequestAndVerify(getUserInfoTestObject): Send request and verify the response successfully
+
+2019-01-22 15:09:34 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:09:34 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:09:34 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:09:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:09:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:09:34 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:09:34 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:09:34 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-22 15:08:53 - [TEST_SUITE][PASSED] - loginXchecklist: Test Cases/Checklist/TC6_Checklist_AddNotes]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

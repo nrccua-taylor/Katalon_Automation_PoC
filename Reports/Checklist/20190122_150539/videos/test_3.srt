@@ -1,0 +1,44 @@
+1
+00:00:00,181 --> 00:00:00,182
+1. getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login")
+
+2
+00:00:00,235 --> 00:00:00,236
+5. responseTokenObject = sendRequest(getTokenTestObject)
+
+3
+00:00:01,035 --> 00:00:01,036
+9. tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText())
+
+4
+00:00:01,039 --> 00:00:01,040
+13. token = bearer_token
+
+5
+00:00:01,044 --> 00:00:01,045
+17. getUserInfoTestObject = findTestObject("Helpers/Checklist/Put_Checklist_MarkDone")
+
+6
+00:00:01,089 --> 00:00:01,091
+21. getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token)))
+
+7
+00:00:01,095 --> 00:00:01,096
+25. sendRequestAndVerify(getUserInfoTestObject)
+
+8
+00:00:01,634 --> 00:00:01,635
+1. request = getInstance().getCurrentRequest()
+
+9
+00:00:01,688 --> 00:00:01,691
+5. response = getInstance().getCurrentResponse()
+
+10
+00:00:01,695 --> 00:00:01,696
+9. verifyResponseStatusCode(response, 200)
+
+11
+00:00:01,701 --> 00:00:01,702
+13. getStatusCode()).isEqualTo(200)
+

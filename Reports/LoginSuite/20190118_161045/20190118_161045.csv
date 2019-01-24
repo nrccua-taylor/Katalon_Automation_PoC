@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginSuite,,,2019-01-18 16:10:46,2019-01-18 16:11:25,38.321s,FAILED
+,,,,,,
+Test Cases/Login/TC1_MCO_Login,,,2019-01-18 16:10:47,2019-01-18 16:10:54,7.201s,PASSED
+"sendRequestAndVerify(findTestObject(""Helpers/Login/Helper_MCO_Login"", [""G_Login_Username"":G_Login_Username_MCO, ""G_Login_Password"":G_Login_Password_MCO, ""G_API_URL_LOGIN"":G_API_URL_LOGIN]))",,,2019-01-18 16:10:47,2019-01-18 16:10:52,4.726s,PASSED
+,,,,,,
+Test Cases/Login/TC2_MO_LOGIN,,,2019-01-18 16:10:54,2019-01-18 16:10:58,4.544s,PASSED
+"sendRequestAndVerify(findTestObject(""Helpers/Login/Helper_MO_Login"", [""G_Login_Username"":G_Login_Username_MO, ""G_Login_Password"":G_Login_Password_MO, ""G_API_URL_LOGIN"":G_API_URL_LOGIN]))",,,2019-01-18 16:10:54,2019-01-18 16:10:56,2.390s,PASSED
+,,,,,,
+Test Cases/Login/TC3_MO_LOGIN_IncorrectPassword,,,2019-01-18 16:10:58,2019-01-18 16:11:01,3.097s,PASSED
+"sendRequestAndVerify(findTestObject(""Helpers/Login/Helper_MO_Login_IncorrectPassword"", [""G_Login_Username"":G_Login_Username_MO, ""G_Login_Password"":G_Login_Password_MO, ""G_API_URL_LOGIN"":G_API_URL_LOGIN]))",,,2019-01-18 16:10:58,2019-01-18 16:10:59,0.966s,PASSED
+,,,,,,
+Test Cases/Login/TC4_MO_LOGIN_IncorrectUsername,,,2019-01-18 16:11:01,2019-01-18 16:11:25,23.172s,FAILED
+"sendRequestAndVerify(findTestObject(""Helpers/Login/Helper_MO_Login_IncorrectUsername"", [""G_Login_Username"":G_Login_Username_MO, ""G_Login_Password"":G_Login_Password_MO, ""G_API_URL_LOGIN"":G_API_URL_LOGIN]))",,,2019-01-18 16:11:02,2019-01-18 16:11:23,21.034s,FAILED

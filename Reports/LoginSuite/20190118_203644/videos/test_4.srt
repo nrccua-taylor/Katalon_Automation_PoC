@@ -1,0 +1,24 @@
+1
+00:00:00,082 --> 00:00:00,082
+1. sendRequestAndVerify(findTestObject("Helpers/Login/Helper_MO_Login_IncorrectUsername", ["G_Login_Username":G_Login_Username_MO, "G_Login_Password":G_Login_Password_MO, "G_API_URL_LOGIN":G_API_URL_LOGIN]))
+
+2
+00:00:01,013 --> 00:00:01,013
+1. request = getInstance().getCurrentRequest()
+
+3
+00:00:01,042 --> 00:00:01,043
+5. response = getInstance().getCurrentResponse()
+
+4
+00:00:01,044 --> 00:00:01,044
+9. verifyResponseStatusCode(response, 401)
+
+5
+00:00:01,046 --> 00:00:01,046
+13. getStatusCode()).isEqualTo(401)
+
+6
+00:00:01,048 --> 00:00:01,048
+17. getResponseText()).contains("errorMessage")
+

@@ -1,0 +1,136 @@
+1
+00:00:00,591 --> 00:00:00,596
+1. sendRequestAndVerify(findTestObject("Helpers/Login/Helper_MCO_Login", ["G_Login_Username":G_Login_Username_MCO, "G_Login_Password":G_Login_Password_MCO, "G_API_URL_LOGIN":G_API_URL_LOGIN]))
+
+2
+00:00:06,916 --> 00:00:06,918
+1. request = getInstance().getCurrentRequest()
+
+3
+00:00:07,043 --> 00:00:07,045
+5. response = getInstance().getCurrentResponse()
+
+4
+00:00:07,049 --> 00:00:07,051
+9. verifyResponseStatusCode(response, 200)
+
+5
+00:00:07,071 --> 00:00:07,073
+13. getStatusCode()).isEqualTo(200)
+
+6
+00:00:07,218 --> 00:00:07,221
+17. getResponseText()).contains("id")
+
+7
+00:00:07,248 --> 00:00:07,250
+21. getResponseText()).contains("student_key")
+
+8
+00:00:07,254 --> 00:00:07,255
+25. getResponseText()).contains("created_at")
+
+9
+00:00:07,267 --> 00:00:07,269
+29. getResponseText()).contains("updated_at")
+
+10
+00:00:07,273 --> 00:00:07,275
+33. getResponseText()).contains("username")
+
+11
+00:00:07,279 --> 00:00:07,281
+37. getResponseText()).contains("email")
+
+12
+00:00:07,284 --> 00:00:07,286
+41. getResponseText()).contains("school_id")
+
+13
+00:00:07,289 --> 00:00:07,291
+45. getResponseText()).contains("email_verified_at")
+
+14
+00:00:07,295 --> 00:00:07,298
+49. getResponseText()).contains("is_school_verified")
+
+15
+00:00:07,306 --> 00:00:07,307
+53. getResponseText()).contains("bearer_token")
+
+16
+00:00:07,312 --> 00:00:07,316
+57. getResponseText()).contains("update_increment")
+
+17
+00:00:07,324 --> 00:00:07,326
+61. getResponseText()).contains("facebook_id")
+
+18
+00:00:07,329 --> 00:00:07,331
+65. getResponseText()).contains("twitter_id")
+
+19
+00:00:07,335 --> 00:00:07,336
+69. getResponseText()).contains("is_profile_public")
+
+20
+00:00:07,340 --> 00:00:07,343
+73. getResponseText()).contains("tos_agreed_at")
+
+21
+00:00:07,347 --> 00:00:07,364
+77. getResponseText()).contains("gpa")
+
+22
+00:00:07,370 --> 00:00:07,374
+81. getResponseText()).contains("admittedly_score")
+
+23
+00:00:07,377 --> 00:00:07,380
+85. getResponseText()).contains("is_tutorial_completed")
+
+24
+00:00:07,383 --> 00:00:07,385
+89. getResponseText()).contains("tutorial_step")
+
+25
+00:00:07,390 --> 00:00:07,392
+93. getResponseText()).contains("preferences")
+
+26
+00:00:07,396 --> 00:00:07,399
+97. getResponseText()).contains("personal_color")
+
+27
+00:00:07,403 --> 00:00:07,405
+101. getResponseText()).contains("profile")
+
+28
+00:00:07,409 --> 00:00:07,411
+105. getResponseText()).contains("profile_completion")
+
+29
+00:00:07,414 --> 00:00:07,416
+109. getResponseText()).contains("personal_story")
+
+30
+00:00:07,420 --> 00:00:07,422
+113. getResponseText()).contains("subscription_expires_at")
+
+31
+00:00:07,430 --> 00:00:07,433
+117. getResponseText()).contains("referred_by_code")
+
+32
+00:00:07,436 --> 00:00:07,438
+121. getResponseText()).contains("date_of_birth")
+
+33
+00:00:07,442 --> 00:00:07,444
+125. getResponseText()).contains("from_mo")
+
+34
+00:00:07,447 --> 00:00:07,451
+129. getResponseText()).contains("old_password_format")
+

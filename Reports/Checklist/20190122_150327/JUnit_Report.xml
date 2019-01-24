@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checklist" time="28" tests="5" failures="0" errors="1">
+   <testsuite name="Checklist" tests="5" failures="0" errors="1" time="28" timestamp="2019-01-22 15:03:29" hostname="taylor.sablowsky - LAPTOP1046.nrccua-hq.local" id="Test Suites/Checklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\taylor.sablowsky\\Katalon Studio\\API PoC_BK\\Reports\\Checklist\\20190122_150327"/>
+         <property name="logFiles" value="C:\\Users\\taylor.sablowsky\\Katalon Studio\\API PoC_BK\\Reports\\Checklist\\20190122_150327\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="taylor.sablowsky - LAPTOP1046.nrccua-hq.local"/>
+         <property name="hostAddress" value="192.168.39.235"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.3.1"/>
+      </properties>
+      <testcase name="Test Cases/Checklist/TC1_Checklist_GetChecklist" classname="Test Cases/Checklist/TC1_Checklist_GetChecklist" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:03:30 - [TEST_CASE][PASSED] - Test Cases/Checklist/TC1_Checklist_GetChecklist: Test Cases/Checklist/TC1_Checklist_GetChecklist
+
+2019-01-22 15:03:30 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:03:31 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:03:36 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\Checklist\20190122_150327\requests\main\0.har
+
+2019-01-22 15:03:36 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:03:36 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:03:36 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:03:36 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helpers/Checklist/Get_Checklist"): null
+
+2019-01-22 15:03:36 - [TEST_STEP][PASSED] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): null
+
+2019-01-22 15:03:36 - [TEST_STEP][PASSED] - sendRequestAndVerify(getUserInfoTestObject): Send request and verify the response successfully
+
+2019-01-22 15:03:37 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:03:37 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:03:37 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:03:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:03:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:03:37 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:03:37 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:03:37 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/TC2_Checklist_MarkArchived" classname="Test Cases/Checklist/TC2_Checklist_MarkArchived" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:03:39 - [TEST_CASE][PASSED] - Test Cases/Checklist/TC2_Checklist_MarkArchived: Test Cases/Checklist/TC2_Checklist_MarkArchived
+
+2019-01-22 15:03:39 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:03:39 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:03:40 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\Checklist\20190122_150327\requests\main\1.har
+
+2019-01-22 15:03:40 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:03:40 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:03:40 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:03:40 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helpers/Checklist/Put_Checklist_MarkArchived"): null
+
+2019-01-22 15:03:40 - [TEST_STEP][PASSED] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): null
+
+2019-01-22 15:03:40 - [TEST_STEP][PASSED] - sendRequestAndVerify(getUserInfoTestObject): Send request and verify the response successfully
+
+2019-01-22 15:03:41 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:03:41 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:03:41 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:03:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:03:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:03:41 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:03:41 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:03:41 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/TC3_Checklist_MarkDone" classname="Test Cases/Checklist/TC3_Checklist_MarkDone" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:03:43 - [TEST_CASE][PASSED] - Test Cases/Checklist/TC3_Checklist_MarkDone: Test Cases/Checklist/TC3_Checklist_MarkDone
+
+2019-01-22 15:03:43 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:03:43 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:03:44 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\Checklist\20190122_150327\requests\main\2.har
+
+2019-01-22 15:03:44 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:03:44 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:03:44 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:03:44 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helpers/Checklist/Put_Checklist_MarkDone"): null
+
+2019-01-22 15:03:44 - [TEST_STEP][PASSED] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): null
+
+2019-01-22 15:03:44 - [TEST_STEP][PASSED] - sendRequestAndVerify(getUserInfoTestObject): Send request and verify the response successfully
+
+2019-01-22 15:03:45 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:03:45 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:03:45 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:03:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:03:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:03:45 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:03:45 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:03:45 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/TC4_Checklist_MarkToDo" classname="Test Cases/Checklist/TC4_Checklist_MarkToDo" status="ERROR">
+         <error type="ERROR" message="Test Cases/Checklist/TC4_Checklist_MarkToDo FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getHttpHeaderProperties() on null object
+	at TC4_Checklist_MarkToDo.run(TC4_Checklist_MarkToDo:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191007545.run(TempTestSuite1548191007545.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-22 15:03:47 - [TEST_CASE][ERROR] - Test Cases/Checklist/TC4_Checklist_MarkToDo: Test Cases/Checklist/TC4_Checklist_MarkToDo FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getHttpHeaderProperties() on null object
+	at TC4_Checklist_MarkToDo.run(TC4_Checklist_MarkToDo:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191007545.run(TempTestSuite1548191007545.groovy:36)
+
+
+2019-01-22 15:03:47 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:03:47 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:03:48 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\Checklist\20190122_150327\requests\main\3.har
+
+2019-01-22 15:03:48 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:03:48 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:03:48 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:03:48 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helper_v2/Helper_Checklist_MarkToDo"): Test object with id 'Object Repository/Helper_v2/Helper_Checklist_MarkToDo' does not exist
+
+2019-01-22 15:03:48 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Helper_v2/Helper_Checklist_MarkToDo' does not exist
+
+2019-01-22 15:03:48 - [TEST_STEP][ERROR] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))) FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getHttpHeaderProperties() on null object
+	at TC4_Checklist_MarkToDo.run(TC4_Checklist_MarkToDo:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191007545.run(TempTestSuite1548191007545.groovy:36)
+
+
+2019-01-22 15:03:48 - [MESSAGE][ERROR] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))) FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getHttpHeaderProperties() on null object
+	at TC4_Checklist_MarkToDo.run(TC4_Checklist_MarkToDo:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191007545.run(TempTestSuite1548191007545.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-22 15:03:47 - [TEST_CASE][ERROR] - Test Cases/Checklist/TC4_Checklist_MarkToDo: Test Cases/Checklist/TC4_Checklist_MarkToDo FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getHttpHeaderProperties() on null object
+	at TC4_Checklist_MarkToDo.run(TC4_Checklist_MarkToDo:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191007545.run(TempTestSuite1548191007545.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/TC5_Checklist_DeleteNotes" classname="Test Cases/Checklist/TC5_Checklist_DeleteNotes" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:03:50 - [TEST_CASE][PASSED] - Test Cases/Checklist/TC5_Checklist_DeleteNotes: Test Cases/Checklist/TC5_Checklist_DeleteNotes
+
+2019-01-22 15:03:51 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:03:51 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:03:52 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\Checklist\20190122_150327\requests\main\4.har
+
+2019-01-22 15:03:52 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:03:52 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:03:52 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:03:52 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helpers/Checklist/Put_Checklist_DeleteNotes"): null
+
+2019-01-22 15:03:52 - [TEST_STEP][PASSED] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): null
+
+2019-01-22 15:03:52 - [TEST_STEP][PASSED] - sendRequestAndVerify(getUserInfoTestObject): Send request and verify the response successfully
+
+2019-01-22 15:03:52 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:03:52 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:03:52 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:03:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:03:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:03:52 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:03:52 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:03:52 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/TC6_Checklist_AddNotes" classname="Test Cases/Checklist/TC6_Checklist_AddNotes" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:03:54 - [TEST_CASE][PASSED] - Test Cases/Checklist/TC6_Checklist_AddNotes: Test Cases/Checklist/TC6_Checklist_AddNotes
+
+2019-01-22 15:03:54 - [TEST_STEP][PASSED] - getTokenTestObject = findTestObject("Helpers/Login/Helper_MO_Login"): null
+
+2019-01-22 15:03:55 - [TEST_STEP][PASSED] - responseTokenObject = sendRequest(getTokenTestObject): Send request successfully
+
+2019-01-22 15:03:55 - [MESSAGE][INFO] - HAR: C:\Users\taylor.sablowsky\Katalon Studio\API PoC_BK\Reports\Checklist\20190122_150327\requests\main\5.har
+
+2019-01-22 15:03:55 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-22 15:03:55 - [TEST_STEP][PASSED] - tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()): null
+
+2019-01-22 15:03:55 - [TEST_STEP][PASSED] - token = bearer_token: null
+
+2019-01-22 15:03:55 - [TEST_STEP][PASSED] - getUserInfoTestObject = findTestObject("Helpers/Checklist/Put_Checklist_DeleteNotes"): null
+
+2019-01-22 15:03:55 - [TEST_STEP][PASSED] - getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token))): null
+
+2019-01-22 15:03:55 - [TEST_STEP][PASSED] - sendRequestAndVerify(getUserInfoTestObject): Send request and verify the response successfully
+
+2019-01-22 15:03:56 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-22 15:03:56 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-22 15:03:56 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-22 15:03:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-22 15:03:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-22 15:03:56 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-22 15:03:56 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-22 15:03:56 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-22 15:03:29 - [TEST_SUITE][ERROR] - Checklist: Test Cases/Checklist/TC4_Checklist_MarkToDo FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getHttpHeaderProperties() on null object
+	at TC4_Checklist_MarkToDo.run(TC4_Checklist_MarkToDo:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191007545.run(TempTestSuite1548191007545.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-22 15:03:29 - [TEST_SUITE][ERROR] - Checklist: Test Cases/Checklist/TC4_Checklist_MarkToDo FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getHttpHeaderProperties() on null object
+	at TC4_Checklist_MarkToDo.run(TC4_Checklist_MarkToDo:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191007545.run(TempTestSuite1548191007545.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

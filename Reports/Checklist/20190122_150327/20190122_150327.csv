@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Checklist,,,2019-01-22 15:03:29,2019-01-22 15:03:58,28.882s,ERROR
+,,,,,,
+Test Cases/Checklist/TC1_Checklist_GetChecklist,,,2019-01-22 15:03:30,2019-01-22 15:03:39,9.588s,PASSED
+"getTokenTestObject = findTestObject(""Helpers/Login/Helper_MO_Login"")",,,2019-01-22 15:03:30,2019-01-22 15:03:31,0.196s,PASSED
+responseTokenObject = sendRequest(getTokenTestObject),,,2019-01-22 15:03:31,2019-01-22 15:03:36,5.206s,PASSED
+tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()),,,2019-01-22 15:03:36,2019-01-22 15:03:36,0.035s,PASSED
+token = bearer_token,,,2019-01-22 15:03:36,2019-01-22 15:03:36,0.008s,PASSED
+"getUserInfoTestObject = findTestObject(""Helpers/Checklist/Get_Checklist"")",,,2019-01-22 15:03:36,2019-01-22 15:03:36,0.049s,PASSED
+"getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token)))",,,2019-01-22 15:03:36,2019-01-22 15:03:36,0.024s,PASSED
+sendRequestAndVerify(getUserInfoTestObject),,,2019-01-22 15:03:36,2019-01-22 15:03:37,1.145s,PASSED
+,,,,,,
+Test Cases/Checklist/TC2_Checklist_MarkArchived,,,2019-01-22 15:03:39,2019-01-22 15:03:43,3.911s,PASSED
+"getTokenTestObject = findTestObject(""Helpers/Login/Helper_MO_Login"")",,,2019-01-22 15:03:39,2019-01-22 15:03:39,0.081s,PASSED
+responseTokenObject = sendRequest(getTokenTestObject),,,2019-01-22 15:03:39,2019-01-22 15:03:40,0.874s,PASSED
+tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()),,,2019-01-22 15:03:40,2019-01-22 15:03:40,0.004s,PASSED
+token = bearer_token,,,2019-01-22 15:03:40,2019-01-22 15:03:40,0.004s,PASSED
+"getUserInfoTestObject = findTestObject(""Helpers/Checklist/Put_Checklist_MarkArchived"")",,,2019-01-22 15:03:40,2019-01-22 15:03:40,0.035s,PASSED
+"getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token)))",,,2019-01-22 15:03:40,2019-01-22 15:03:40,0.004s,PASSED
+sendRequestAndVerify(getUserInfoTestObject),,,2019-01-22 15:03:40,2019-01-22 15:03:41,0.644s,PASSED
+,,,,,,
+Test Cases/Checklist/TC3_Checklist_MarkDone,,,2019-01-22 15:03:43,2019-01-22 15:03:47,3.642s,PASSED
+"getTokenTestObject = findTestObject(""Helpers/Login/Helper_MO_Login"")",,,2019-01-22 15:03:43,2019-01-22 15:03:43,0.049s,PASSED
+responseTokenObject = sendRequest(getTokenTestObject),,,2019-01-22 15:03:43,2019-01-22 15:03:44,0.699s,PASSED
+tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()),,,2019-01-22 15:03:44,2019-01-22 15:03:44,0.003s,PASSED
+token = bearer_token,,,2019-01-22 15:03:44,2019-01-22 15:03:44,0.019s,PASSED
+"getUserInfoTestObject = findTestObject(""Helpers/Checklist/Put_Checklist_MarkDone"")",,,2019-01-22 15:03:44,2019-01-22 15:03:44,0.043s,PASSED
+"getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token)))",,,2019-01-22 15:03:44,2019-01-22 15:03:44,0.004s,PASSED
+sendRequestAndVerify(getUserInfoTestObject),,,2019-01-22 15:03:44,2019-01-22 15:03:45,0.583s,PASSED
+,,,,,,
+Test Cases/Checklist/TC4_Checklist_MarkToDo,,,2019-01-22 15:03:47,2019-01-22 15:03:50,3.700s,ERROR
+"getTokenTestObject = findTestObject(""Helpers/Login/Helper_MO_Login"")",,,2019-01-22 15:03:47,2019-01-22 15:03:47,0.056s,PASSED
+responseTokenObject = sendRequest(getTokenTestObject),,,2019-01-22 15:03:47,2019-01-22 15:03:48,1.394s,PASSED
+tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()),,,2019-01-22 15:03:48,2019-01-22 15:03:48,0.004s,PASSED
+token = bearer_token,,,2019-01-22 15:03:48,2019-01-22 15:03:48,0.004s,PASSED
+"getUserInfoTestObject = findTestObject(""Helper_v2/Helper_Checklist_MarkToDo"")",,,2019-01-22 15:03:48,2019-01-22 15:03:48,0.003s,PASSED
+"getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token)))",,,2019-01-22 15:03:48,2019-01-22 15:03:48,0.012s,ERROR
+,,,,,,
+Test Cases/Checklist/TC5_Checklist_DeleteNotes,,,2019-01-22 15:03:50,2019-01-22 15:03:54,3.822s,PASSED
+"getTokenTestObject = findTestObject(""Helpers/Login/Helper_MO_Login"")",,,2019-01-22 15:03:51,2019-01-22 15:03:51,0.062s,PASSED
+responseTokenObject = sendRequest(getTokenTestObject),,,2019-01-22 15:03:51,2019-01-22 15:03:52,0.925s,PASSED
+tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()),,,2019-01-22 15:03:52,2019-01-22 15:03:52,0.003s,PASSED
+token = bearer_token,,,2019-01-22 15:03:52,2019-01-22 15:03:52,0.003s,PASSED
+"getUserInfoTestObject = findTestObject(""Helpers/Checklist/Put_Checklist_DeleteNotes"")",,,2019-01-22 15:03:52,2019-01-22 15:03:52,0.032s,PASSED
+"getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token)))",,,2019-01-22 15:03:52,2019-01-22 15:03:52,0.003s,PASSED
+sendRequestAndVerify(getUserInfoTestObject),,,2019-01-22 15:03:52,2019-01-22 15:03:52,0.594s,PASSED
+,,,,,,
+Test Cases/Checklist/TC6_Checklist_AddNotes,,,2019-01-22 15:03:54,2019-01-22 15:03:58,3.833s,PASSED
+"getTokenTestObject = findTestObject(""Helpers/Login/Helper_MO_Login"")",,,2019-01-22 15:03:54,2019-01-22 15:03:55,0.060s,PASSED
+responseTokenObject = sendRequest(getTokenTestObject),,,2019-01-22 15:03:55,2019-01-22 15:03:55,0.858s,PASSED
+tokenObject = JsonSlurper().parseText(responseTokenObject.getResponseText()),,,2019-01-22 15:03:55,2019-01-22 15:03:55,0.004s,PASSED
+token = bearer_token,,,2019-01-22 15:03:55,2019-01-22 15:03:55,0.004s,PASSED
+"getUserInfoTestObject = findTestObject(""Helpers/Checklist/Put_Checklist_DeleteNotes"")",,,2019-01-22 15:03:55,2019-01-22 15:03:55,0.030s,PASSED
+"getHttpHeaderProperties().add(new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + token)))",,,2019-01-22 15:03:55,2019-01-22 15:03:55,0.005s,PASSED
+sendRequestAndVerify(getUserInfoTestObject),,,2019-01-22 15:03:55,2019-01-22 15:03:56,0.617s,PASSED

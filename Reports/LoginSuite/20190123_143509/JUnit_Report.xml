@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginSuite" time="17" tests="4" failures="0" errors="0">
+   <testsuite name="LoginSuite" tests="4" failures="0" errors="0" time="17" timestamp="2019-01-23 14:35:10" hostname="taylor.sablowsky - LAPTOP1046.nrccua-hq.local" id="Test Suites/LoginSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\taylor.sablowsky\\Katalon Studio\\API PoC_BK\\Reports\\LoginSuite\\20190123_143509"/>
+         <property name="logFiles" value="C:\\Users\\taylor.sablowsky\\Katalon Studio\\API PoC_BK\\Reports\\LoginSuite\\20190123_143509\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="taylor.sablowsky - LAPTOP1046.nrccua-hq.local"/>
+         <property name="hostAddress" value="192.168.39.235"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.3.1"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC1_MCO_Login" classname="Test Cases/Login/TC1_MCO_Login" status="PASSED">
+         <system-out><![CDATA[2019-01-23 14:35:11 - [TEST_CASE][PASSED] - Test Cases/Login/TC1_MCO_Login: Test Cases/Login/TC1_MCO_Login
+
+2019-01-23 14:35:11 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Helpers/Login/Helper_MCO_Login", ["G_Login_Username":G_Login_Username_MCO, "G_Login_Password":G_Login_Password_MCO, "G_API_URL_LOGIN":G_API_URL_LOGIN])): Send request and verify the response successfully
+
+2019-01-23 14:35:15 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-23 14:35:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("id"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("student_key"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("created_at"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("updated_at"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("username"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("email"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("school_id"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("email_verified_at"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("is_school_verified"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("bearer_token"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("update_increment"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("facebook_id"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("twitter_id"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("is_profile_public"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("tos_agreed_at"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("gpa"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("admittedly_score"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("is_tutorial_completed"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("tutorial_step"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("preferences"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("personal_color"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("profile"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("profile_completion"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("personal_story"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("subscription_expires_at"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("referred_by_code"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("date_of_birth"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("from_mo"): null
+
+2019-01-23 14:35:16 - [TEST_STEP][PASSED] - getResponseText()).contains("old_password_format"): null
+
+2019-01-23 14:35:16 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-23 14:35:16 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC2_MO_LOGIN" classname="Test Cases/Login/TC2_MO_LOGIN" status="PASSED">
+         <system-out><![CDATA[2019-01-23 14:35:18 - [TEST_CASE][PASSED] - Test Cases/Login/TC2_MO_LOGIN: Test Cases/Login/TC2_MO_LOGIN
+
+2019-01-23 14:35:18 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Helpers/Login/Helper_MO_Login", ["G_Login_Username":G_Login_Username_MO, "G_Login_Password":G_Login_Password_MO, "G_API_URL_LOGIN":G_API_URL_LOGIN])): Send request and verify the response successfully
+
+2019-01-23 14:35:19 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-23 14:35:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("id"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("student_key"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("created_at"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("updated_at"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("username"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("email"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("school_id"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("email_verified_at"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("is_school_verified"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("bearer_token"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("update_increment"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("facebook_id"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("twitter_id"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("is_profile_public"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("tos_agreed_at"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("gpa"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("admittedly_score"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("is_tutorial_completed"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("tutorial_step"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("preferences"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("personal_color"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("profile"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("profile_completion"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("personal_story"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("subscription_expires_at"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("referred_by_code"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("date_of_birth"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("from_mo"): null
+
+2019-01-23 14:35:20 - [TEST_STEP][PASSED] - getResponseText()).contains("old_password_format"): null
+
+2019-01-23 14:35:20 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-23 14:35:20 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC3_MO_LOGIN_IncorrectPassword" classname="Test Cases/Login/TC3_MO_LOGIN_IncorrectPassword" status="PASSED">
+         <system-out><![CDATA[2019-01-23 14:35:22 - [TEST_CASE][PASSED] - Test Cases/Login/TC3_MO_LOGIN_IncorrectPassword: Test Cases/Login/TC3_MO_LOGIN_IncorrectPassword
+
+2019-01-23 14:35:22 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Helpers/Login/Helper_MO_Login_IncorrectPassword", ["G_Login_Username":G_Login_Username_MO, "G_Login_Password":G_Login_Password_MO, "G_API_URL_LOGIN":G_API_URL_LOGIN])): Send request and verify the response successfully
+
+2019-01-23 14:35:23 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-23 14:35:23 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-23 14:35:23 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-23 14:35:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 401): Verify response status code successfully
+
+2019-01-23 14:35:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-23 14:35:23 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(401): null
+
+2019-01-23 14:35:23 - [TEST_STEP][PASSED] - getResponseText()).contains("errorMessage"): null
+
+2019-01-23 14:35:23 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-23 14:35:23 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC4_MO_LOGIN_IncorrectUsername" classname="Test Cases/Login/TC4_MO_LOGIN_IncorrectUsername" status="PASSED">
+         <system-out><![CDATA[2019-01-23 14:35:26 - [TEST_CASE][PASSED] - Test Cases/Login/TC4_MO_LOGIN_IncorrectUsername: Test Cases/Login/TC4_MO_LOGIN_IncorrectUsername
+
+2019-01-23 14:35:26 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Helpers/Login/Helper_MO_Login_IncorrectUsername", ["G_Login_Username":G_Login_Username_MO, "G_Login_Password":G_Login_Password_MO, "G_API_URL_LOGIN":G_API_URL_LOGIN])): Send request and verify the response successfully
+
+2019-01-23 14:35:26 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-23 14:35:26 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-23 14:35:26 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-23 14:35:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 401): Verify response status code successfully
+
+2019-01-23 14:35:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-23 14:35:26 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(401): null
+
+2019-01-23 14:35:26 - [TEST_STEP][PASSED] - getResponseText()).contains("errorMessage"): null
+
+2019-01-23 14:35:26 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-23 14:35:26 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-23 14:35:10 - [TEST_SUITE][PASSED] - LoginSuite: Test Cases/Login/TC4_MO_LOGIN_IncorrectUsername]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

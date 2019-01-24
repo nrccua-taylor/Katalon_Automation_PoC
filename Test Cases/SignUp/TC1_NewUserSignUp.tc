@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_NewUserSignUp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>957b2dba-dcc5-435c-a250-00060bbefaf2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>92d7beae-30a8-4ecb-8d13-4e8bb38aa1ae</id>
+      <masked>false</masked>
+      <name>V_LOCAL_TIMESTAMP</name>
+   </variable>
+</TestCaseEntity>
