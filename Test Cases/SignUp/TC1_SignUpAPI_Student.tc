@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_SignUpAPI_Student</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>versionId</key>
+            <value>31175271</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>TC1_NewUserSignUp</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-54</value>
+         </entry>
+         <entry>
+            <key>id</key>
+            <value>23932723</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5403798</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>957b2dba-dcc5-435c-a250-00060bbefaf2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>92d7beae-30a8-4ecb-8d13-4e8bb38aa1ae</id>
+      <masked>false</masked>
+      <name>V_LOCAL_TIMESTAMP</name>
+   </variable>
+</TestCaseEntity>

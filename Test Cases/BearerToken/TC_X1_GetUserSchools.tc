@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_X1_GetUserSchools</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e87bfa4a-a3e0-4049-a889-3dc9879c6718</testCaseGuid>
+</TestCaseEntity>
