@@ -9,30 +9,48 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>52c41878-5060-4d6d-bd9a-46998af56208</testSuiteGuid>
+   <testSuiteGuid>c6084779-f3c5-4c53-b99e-3b4138e7b89f</testSuiteGuid>
    <testCaseLink>
-      <guid>8c2f8566-ef7c-42e9-8d62-fc2550d017ea</guid>
+      <guid>4c9cea34-3cae-43be-81fe-f4c3f0b8e1b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Checklist/TC1_Checklist_GetChecklist</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>4d9f72aa-0776-4e0f-849d-25c664053d12</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/New Test Data</testDataId>
-      </testDataLink>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>1bd9eebf-fa32-430a-b360-92a755e2bae7</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/New Test Data</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/BearerToken/TC_X_BearerTokenRefresh</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9d8d778b-f8a3-4e7d-b6bc-8fd7ebea9836</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checklist/TC2_ChecklistAPI_MarkArchived</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>28deac14-6f87-455e-8685-ec83075c6b93</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checklist/TC3_ChecklistAPI_MarkDone</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7724e6d8-f84d-4505-9ab1-4ad832986eab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checklist/TC4_ChecklistAPI_MarkToDo</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a8ae25a-a5e1-44ea-9a3c-58352139eeed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checklist/TC5_ChecklistAPI_DeleteNotes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c9a63f78-0646-4557-aebd-de12c67880ee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checklist/TC6_ChecklistAPI_AddNotes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bd6ac144-217a-4a7a-b594-daab7533d154</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checklist/TC1_ChecklistAPI_GetChecklist</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -45,35 +63,5 @@
          <value></value>
          <variableId>5e1f22bf-0b5d-4905-8deb-ea1ee605f9f5</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>16c8653b-e9ac-47b1-a7e0-3f1d7f100efa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Checklist/TC2_Checklist_MarkArchived</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7463bd52-514d-46f1-8c82-91c49293088c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Checklist/TC3_Checklist_MarkDone</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>59f90d32-60aa-423a-a2ac-702e6f5bfd68</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Checklist/TC4_Checklist_MarkToDo</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>776e2dfd-45e4-43db-baf6-180628df0d93</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Checklist/TC5_Checklist_DeleteNotes</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fbe0be0f-82f4-4f1b-b007-89435ac4e575</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Checklist/TC6_Checklist_AddNotes</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

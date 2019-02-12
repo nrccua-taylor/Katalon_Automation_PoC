@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'taylordbmerge+1@gmail.com'</initValue>
+      <initValue>'taylor.sablowsky@nrccua.org'</initValue>
       <name>G_Login_Username_MO</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Fridayone1'</initValue>
+      <initValue>'tayloraosschool@gmail.com'</initValue>
       <name>G_Login_Username_MCO</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -58,5 +58,55 @@
       <description></description>
       <initValue>'https://staging-api.myoptions.org/auth/join'</initValue>
       <name>G_API_URL_SIGNUP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/users/179217/checklist_items/'</initValue>
+      <name>G_API_URL_CHECKLIST_GET</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/users/179217/checklist_items/118'</initValue>
+      <name>G_API_URL_CHECKLIST_PUT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_BearerToken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Nrccua.registration+1@nrccua.org'</initValue>
+      <name>G_SignUp_Student_Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'QAAutomationStageFN'</initValue>
+      <name>G_SignUp_Student_FirstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/auth/reset_password'</initValue>
+      <name>G_API_URL_ResetPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/auth/change_password'</initValue>
+      <name>G_API_URL_ChangePassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/auth/verify_email'</initValue>
+      <name>G_API_URL_VerifyEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Createdviakatalon'</initValue>
+      <name>G_SignUp_Student_LastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/users/179217/schools'</initValue>
+      <name>G_API_URL_USER_SCHOOL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
